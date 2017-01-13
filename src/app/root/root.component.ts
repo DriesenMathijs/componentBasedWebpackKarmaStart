@@ -3,7 +3,7 @@ export class AppController {
   title: string;
 
   $onInit() {
-    this.title = 'Welcome';
+    this.title = 'Welcome U';
   }
 }
 
