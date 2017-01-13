@@ -3,7 +3,7 @@ export class AppController {
   title: string;
 
   $onInit() {
-    this.title = 'Welcome U';
+    this.title = 'Hello Component based Angular World';
   }
 }
 
