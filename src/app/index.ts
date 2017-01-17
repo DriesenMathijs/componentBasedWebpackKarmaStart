@@ -7,6 +7,7 @@ import routeConfig from './config/routes.config';
 //components
 import appComponent from './root';
 import appHeaderComponent from './components/header';
+import appTitleComponent from './components/title';
 
 //services
 import services from './services';
@@ -17,6 +18,7 @@ export default angular.module('app', [
   router,
   appComponent.name,
   appHeaderComponent.name,
+  appTitleComponent.name,
   services.name,
   views.name
 ]).config(routeConfig)
