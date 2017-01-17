@@ -11,12 +11,13 @@
     "postinstall": "typings install"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mathijs Driesen",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.5.8",
     "angular-ui-router": "^1.0.0-beta.2",
     "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1",
     "typescript": "^2.0.2"
   },
   "devDependencies": {

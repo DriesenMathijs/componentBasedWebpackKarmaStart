@@ -1,4 +1,7 @@
 require('!!file?name=[name].[ext]!./index.html');
+
+require('jquery');
+require('bootstrap');
 require('bootstrap/dist/css/bootstrap.css');
 
 import * as angular from 'angular';
